@@ -1,0 +1,23 @@
+NODE
+cd node
+iniciar servidor-> nodemon app
+
+REACT(puerto 3000 por defecto)
+
+crear aplicacion react-> (en cmd)npx create-react-app nombre_carpeta
+cd reactfront
+npm start
+npm i axios react-router-dom
+
+npm i bootstrap
+En src-index.js -> import 'bootstrap/dist/css/bootstrap.min.css'
+para probar
+En src-App.js -> <button className='btn btn-primary'>Crear</button>
+-----en react en lugar de class es className
+
+*fontawesome (o para incluir cualquier libreria mediante cdn)
+En public-index.html (arriba de title)
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+para probar En src-App.js
+<button className='btn btn-primary btn-lg'><i className="fa-brands fa-react"></i></button>
+      
